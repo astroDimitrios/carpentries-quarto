@@ -1,0 +1,14 @@
+title: Carpentries
+author: Dimitrios Theodorakis
+version: 1.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    common:
+      filters:
+        - lesson.lua
+    html:
+      toc: true
+      mainfont: Mulish
+      theme: [stylesheets/styles.css]
+
