@@ -3,7 +3,7 @@
 ## Installing
 
 ```bash
-quarto use template astrodimitrios/carpentries
+quarto use template astrodimitrios/carpentries-quarto
 ```
 
 This will install the extension and create an example qmd file that you can use as a starting place for your article.
