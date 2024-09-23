@@ -10,5 +10,5 @@ contributes:
     html:
       toc: true
       mainfont: Mulish
-      theme: [stylesheets/styles.css]
+      css: stylesheets/styles.css
 
