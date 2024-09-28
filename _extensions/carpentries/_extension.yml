@@ -7,8 +7,21 @@ contributes:
     common:
       filters:
         - lesson.lua
+        - progress.lua
+      format-resources:
+        - fonts/
+        - favicons/
+        - images/
+        - javascripts/
+        - site.webmanifest
     html:
-      toc: true
+      theme: none
+      toc: false
       mainfont: Mulish
+      template: templates/template.html
+      template-partials:
+        - templates/metadata.html
+        - templates/title-block.html
+        - templates/toc.html
+        - templates/footer.html
       css: stylesheets/styles.css
-
